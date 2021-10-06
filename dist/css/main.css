@@ -45,7 +45,7 @@
   --lh-h5: 1.24;
   --fs-h6: 1.4rem;
   --lh-h6: 1.24;
-  --fs-p: clamp(1.6rem, 2vw, 2.2rem);
+  --fs-p: clamp(1.9rem, 2vw, 2.2rem);
   --lh-p: 1.6;
   /*Optimal line-height to paragraph*/
   --mar-b: 1em;
@@ -56,7 +56,7 @@
 h1 {
   font-family: var(--ff-heading);
   font-style: normal;
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-black);
   font-size: var(--fs-h1);
   line-height: var(--lh-h1);
   color: var(--clr-heading);
@@ -71,7 +71,7 @@ h1 {
 h2 {
   font-family: var(--ff-heading);
   font-style: normal;
-  font-weight: var(--fw-s-bold);
+  font-weight: var(--fw-s-black);
   font-size: var(--fs-h2);
   line-height: var(--lh-h2);
   color: var(--clr-heading);
@@ -86,7 +86,7 @@ h2 {
 h3 {
   font-family: var(--ff-heading);
   font-style: normal;
-  font-weight: var(--fw-e-bold);
+  font-weight: var(--fw-e-black);
   font-size: var(--fs-h3);
   line-height: var(--lh-h3);
   color: var(--clr-heading);
@@ -103,7 +103,7 @@ h3 {
 h4 {
   font-family: var(--ff-heading);
   font-style: normal;
-  font-weight: var(--fw-s-bold);
+  font-weight: var(--fw-s-black);
   font-size: var(--fs-h4);
   line-height: var(--lh-h4);
   color: var(--clr-heading);
@@ -147,7 +147,7 @@ h6 {
 p {
   font-family: var(--ff-paragraph);
   font-style: normal;
-  font-weight: var(--fw-regular);
+  font-weight: var(--fw-bold);
   font-size: var(--fs-p);
   line-height: var(--lh-p);
   color: var(--clr-paragraph);
@@ -201,6 +201,59 @@ body {
   background-color: var(--clr-background);
   font-family: var(--ff-paragraph);
   overflow-x: hidden;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.photo {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.visit-button {
+  width: 200px;
+  height: 60px;
+  background-color: #1f0a03;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: large;
+  border-radius: 6px;
+}
+.visit-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.logo > a {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.contact-card {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+}
+
+.szia {
+  text-align: center;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=main.css.map */
