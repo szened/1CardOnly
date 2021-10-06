@@ -214,6 +214,15 @@ body {
 body {
   display: grid;
   place-items: center;
+  padding-top: 30px;
+}
+
+body h1, h2 {
+  line-height: .5;
+}
+
+img {
+  margin-top: -30px;
 }
 
 .photo {
@@ -224,7 +233,7 @@ body {
 .visit-button {
   width: 200px;
   height: 60px;
-  background-color: rgb(31, 10, 3);
+  background-color: #000;
   display: grid;
   place-items: center;
   font-weight: 900;
@@ -253,14 +262,31 @@ body {
   font-weight: 600;
 }
 
+address {
+  display: grid;
+  place-items: center;
+}
+
+address > h4 {
+  width: 150px;
+  height: 40px;
+  background-color: #000;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: large;
+  border-radius: 6px;
+  margin: 12px;
+}
+
 .contact-card {
   text-decoration: none;
-  font-style: normal;
+  //font-weight: var(--fw-s-bold);
   font-size: 1.6rem;
-  color: #000;
-  font-weight: 600;
+  color: #fff;
+  //font-weight: 600;
   text-align: center;
-
+  
 }
 
 .szia {

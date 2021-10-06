@@ -192,6 +192,13 @@ body {
 body {
   display: grid;
   place-items: center;
+  padding-top: 30px;
+}
+body h1, h2 {
+  line-height: 0.5;
+}
+img {
+  margin-top: -30px;
 }
 .photo {
   width: 250px;
@@ -200,7 +207,7 @@ body {
 .visit-button {
   width: 200px;
   height: 60px;
-  background-color: #1f0a03;
+  background-color: #000;
   display: grid;
   place-items: center;
   font-weight: 900;
@@ -223,12 +230,25 @@ body {
   color: #000;
   font-weight: 600;
 }
+address {
+  display: grid;
+  place-items: center;
+}
+address > h4 {
+  width: 150px;
+  height: 40px;
+  background-color: #000;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: large;
+  border-radius: 6px;
+  margin: 12px;
+}
 .contact-card {
   text-decoration: none;
-  font-style: normal;
   font-size: 1.6rem;
-  color: #000;
-  font-weight: 600;
+  color: #fff;
   text-align: center;
 }
 .szia {
