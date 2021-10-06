@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*ROOT VARIABLES*/
+:root {
+  /* Background color */
+  --clr-background: #ffd300;
+  /* Main colors */
+  --clr-copper: #be5c01;
+  --clr-silver: #7A8596;
+  --clr-bird: #333;
+  /* Text color */
+  --clr-heading: #000;
+  --clr-paragraph: #000;
+  /* Illustration color */
+  --clr-fire-1: #ff5200;
+  --clr-fire-2: #ff7906;
+  --clr-fire-3: #ffa11f;
+  --clr-fire-4: #ffb557;
+  --clr-conture: #191919;
+  --clr-steel-1: #3E3E40;
+  --clr-steel-2: #6C6D71;
+  --clr-steel-3: #929397;
+  /* Font-family */
+  --ff-heading: "Raleway", sans-serif;
+  --ff-paragraph: "Raleway", sans-serif;
+  /* Font-weight */
+  --fw-thin: 100;
+  --fw-e-light: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-s-bold: 600;
+  --fw-bold: 700;
+  --fw-e-bold: 800;
+  --fw-black: 900;
+  /* Font-size and line height*/
+  --fs-h1: clamp(3.6rem, 5vw, 6rem);
+  --lh-h1: 1.24;
+  --fs-h2: clamp(3rem, 5vw, 4rem);
+  --lh-h2: 1.24;
+  --fs-h3: clamp(2rem, 5vw, 3rem);
+  --lh-h3: 1.24;
+  --fs-h4: clamp(2rem, 5vw, 3rem);
+  --lh-h4: 1.4;
+  --fs-h5: 4.4rem;
+  --lh-h5: 1.24;
+  --fs-h6: 1.4rem;
+  --lh-h6: 1.24;
+  --fs-p: clamp(1.6rem, 2vw, 2.2rem);
+  --lh-p: 1.6;
+  /*Optimal line-height to paragraph*/
+  --mar-b: 1em;
+  --pad-sides: 1rem;
+}
+
+/* Typography */
+h1 {
+  font-family: var(--ff-heading);
+  font-style: normal;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  color: var(--clr-heading);
+  margin-bottom: var(--mar-b);
+  font-kerning: auto;
+  text-align: left;
+  letter-spacing: -0.04em;
+  word-spacing: 0.03em;
+  hyphens: auto;
+}
+
+h2 {
+  font-family: var(--ff-heading);
+  font-style: normal;
+  font-weight: var(--fw-s-bold);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+  color: var(--clr-heading);
+  margin-bottom: var(--mar-b);
+  font-kerning: auto;
+  text-align: left;
+  letter-spacing: -0.04em;
+  word-spacing: 0.03em;
+  hyphens: auto;
+}
+
+h3 {
+  font-family: var(--ff-heading);
+  font-style: normal;
+  font-weight: var(--fw-e-bold);
+  font-size: var(--fs-h3);
+  line-height: var(--lh-h3);
+  color: var(--clr-heading);
+  margin-bottom: var(--mar-b);
+  text-decoration: underline var(--clr-fire-1);
+  text-decoration-thickness: 0.16em;
+  font-kerning: auto;
+  text-align: left;
+  letter-spacing: -0.03em;
+  word-spacing: 0.03em;
+  hyphens: auto;
+}
+
+h4 {
+  font-family: var(--ff-heading);
+  font-style: normal;
+  font-weight: var(--fw-s-bold);
+  font-size: var(--fs-h4);
+  line-height: var(--lh-h4);
+  color: var(--clr-heading);
+  margin-bottom: var(--mar-b);
+  font-kerning: auto;
+  text-align: left;
+  letter-spacing: -0.035em;
+  word-spacing: -0.02em;
+}
+
+h5 {
+  font-family: var(--ff-heading);
+  font-style: normal;
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-h5);
+  line-height: var(--lh-h5);
+  color: var(--clr-heading);
+  margin-bottom: var(--mar-b);
+  font-kerning: auto;
+  text-align: left;
+  letter-spacing: 0.03em;
+  word-spacing: 0.03em;
+  hyphens: auto;
+}
+
+h6 {
+  font-family: var(--ff-paragraph);
+  font-style: normal;
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-h6);
+  line-height: var(--lh-h6);
+  color: var(--clr-heading);
+  margin-bottom: var(--mar-b);
+  font-kerning: auto;
+  text-align: left;
+  letter-spacing: 0.03em;
+  word-spacing: 0.03em;
+  hyphens: auto;
+}
+
+p {
+  font-family: var(--ff-paragraph);
+  font-style: normal;
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-p);
+  line-height: var(--lh-p);
+  color: var(--clr-paragraph);
+  margin-bottom: var(--mar-b);
+  color: var(--clr-paragraph);
+  font-kerning: auto;
+  text-align: left;
+  letter-spacing: 0.0003em;
+  word-spacing: 0.0003em;
+  hyphens: auto;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*UNIVERSAL RESET*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /*inherit from html*/
+}
+
+/*overwrite these with variables*/
+::selection {
+  background-color: var(--clr-fire-2);
+  color: var(--clr-background);
+}
+
+/*BASE - HTML*/
+html {
+  font-size: 62.5%;
+  /* This define that: 1rem = 10px */
+  /*min-width: 100vw;*/
+  min-width: 100vw;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/*BASE - BODY*/
+body {
+  box-sizing: border-box;
+  position: relative;
+  background-color: var(--clr-background);
+  font-family: var(--ff-paragraph);
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=main.css.map */
