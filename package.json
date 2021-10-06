@@ -1,0 +1,24 @@
+{
+  "name": "1cardonly",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szened/1CardOnly.git"
+  },
+  "author": "szened",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szened/1CardOnly/issues"
+  },
+  "homepage": "https://github.com/szened/1CardOnly#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
+}
