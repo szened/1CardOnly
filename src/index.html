@@ -21,7 +21,13 @@
   <h1>
     a Borfotós
   </h1>
-  <img class="photo" src="assets/bence.jpg" alt="Szabó Bence aBorfotós">
+  <!-- <img class="photo" src="assets/bence.jpg" alt="Szabó Bence aBorfotós"> -->
+  <picture>
+    <source src="assets/bence.jpg?as=avif&width=800" type="image/avif" />
+    <source src="assets/bence.jpg?as=webp&width=800" type="image/webp" />
+    <source src="assets/bence.jpg?width=800" type="image/jpeg" />
+    <img src="assets/bence.jpg?width=260" alt="Szabó Bence aBorfotós" />
+  </picture>
   <h4 class="szia">Szia! Bence vagyok. <br> Bor- ital- gasztro- és termékfotós.</h4>
 
 

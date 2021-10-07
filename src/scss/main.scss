@@ -228,6 +228,8 @@ body h1, h2 {
 
 img {
   margin-top: -30px;
+  max-width: 250px;
+  border-radius: 50%;
 }
 
 .photo {
@@ -302,4 +304,15 @@ address > h4 {
 .szia {
   text-align: center;
   font-weight: 500;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  & > a,
+  & > svg {
+    align-self: center;
+  }
 }
