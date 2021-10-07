@@ -231,19 +231,22 @@ img {
 }
 
 .visit-button {
-  width: 200px;
-  height: 60px;
-  background-color: #000;
   display: grid;
   place-items: center;
+  padding: 1em 1.5em;
+  border-radius: .2em;
+  margin-top: 1em;
+
+  background-color: #000;
   font-weight: 900;
   font-size: large;
-  border-radius: 6px;
-  
+  text-transform: none;
+
 
   a {
     text-decoration: none;
     color: #fff;
+    font-style: normal;
     
   }
 }
@@ -280,13 +283,15 @@ address > h4 {
 }
 
 .contact-card {
+  background-color: black;
+  color: white;
+  padding: 1em 1.5em;
   text-decoration: none;
-  //font-weight: var(--fw-s-bold);
-  font-size: 1.6rem;
-  color: #fff;
-  //font-weight: 600;
-  text-align: center;
-  
+  text-transform: none;
+  border-radius: .2em;
+  margin: 1em 0;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 .szia {
