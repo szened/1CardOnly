@@ -52,6 +52,7 @@
   --lh-p: 1.6;
   /*Optimal line-height to paragraph*/
   --mar-b: 1em;
+  --mar-t-b: 1em;
   --pad-sides: 1rem;
 }
 /* Typography */
@@ -62,7 +63,6 @@ h1 {
   font-size: var(--fs-h1);
   line-height: var(--lh-h1);
   color: var(--clr-heading);
-  margin-bottom: var(--mar-b);
   font-kerning: auto;
   text-align: left;
   letter-spacing: -0.04em;
@@ -72,11 +72,10 @@ h1 {
 h2 {
   font-family: var(--ff-heading);
   font-style: normal;
-  font-weight: var(--fw-s-black);
+  font-weight: var(--fw-s-bold);
   font-size: var(--fs-h2);
   line-height: var(--lh-h2);
   color: var(--clr-heading);
-  margin-bottom: var(--mar-b);
   font-kerning: auto;
   text-align: left;
   letter-spacing: -0.04em;
@@ -90,7 +89,6 @@ h3 {
   font-size: var(--fs-h3);
   line-height: var(--lh-h3);
   color: var(--clr-heading);
-  margin-bottom: var(--mar-b);
   text-decoration: underline var(--clr-fire-1);
   text-decoration-thickness: 0.16em;
   font-kerning: auto;
@@ -106,7 +104,6 @@ h4 {
   font-size: var(--fs-h4);
   line-height: var(--lh-h4);
   color: var(--clr-heading);
-  margin-bottom: var(--mar-b);
   font-kerning: auto;
   text-align: left;
   letter-spacing: -0.035em;
@@ -119,7 +116,6 @@ h5 {
   font-size: var(--fs-h5);
   line-height: var(--lh-h5);
   color: var(--clr-heading);
-  margin-bottom: var(--mar-b);
   font-kerning: auto;
   text-align: left;
   letter-spacing: 0.03em;
@@ -133,7 +129,6 @@ h6 {
   font-size: var(--fs-h6);
   line-height: var(--lh-h6);
   color: var(--clr-heading);
-  margin-bottom: var(--mar-b);
   font-kerning: auto;
   text-align: left;
   letter-spacing: 0.03em;
@@ -147,7 +142,6 @@ p {
   font-size: var(--fs-p);
   line-height: var(--lh-p);
   color: var(--clr-paragraph);
-  margin-bottom: var(--mar-b);
   color: var(--clr-paragraph);
   font-kerning: auto;
   text-align: left;
@@ -195,62 +189,21 @@ body {
 body {
   display: grid;
   place-items: center;
-  padding-top: 31px;
+  margin: var(--mar-t-b);
 }
-body h1, h2 {
-  line-height: 0.5;
+body h2, body h1 {
+  margin: 0.4rem;
 }
 img {
-  margin-top: -30px;
+  display: flex;
+  margin-top: 1rem;
   max-width: 250px;
   border-radius: 50%;
 }
-.photo {
-  width: 250px;
-  border-radius: 50%;
-}
-.visit-button {
-  display: grid;
-  place-items: center;
-  padding: 1em 1.5em;
-  border-radius: 0.2em;
-  margin: 1em;
-  background-color: #000;
-  font-weight: 900;
-  font-size: large;
-  text-transform: none;
-}
-.visit-button a {
-  text-decoration: none;
-  color: #fff;
-  font-style: normal;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  align-content: center;
-}
-.logo > a {
-  text-decoration: none;
-  font-style: normal;
-  font-size: 1.6rem;
-  color: #000;
+.szia {
+  margin-top: 1rem;
+  text-align: center;
   font-weight: 600;
-}
-address {
-  display: grid;
-  place-items: center;
-}
-address > h4 {
-  width: 150px;
-  height: 40px;
-  background-color: #000;
-  display: grid;
-  place-items: center;
-  font-weight: 800;
-  font-size: large;
-  border-radius: 6px;
-  margin: 12px;
 }
 .contact-card {
   background-color: black;
@@ -263,9 +216,9 @@ address > h4 {
   font-weight: 900;
   font-size: 2rem;
 }
-.szia {
-  text-align: center;
-  font-weight: 500;
+address {
+  display: grid;
+  place-items: center;
 }
 .social {
   display: flex;
@@ -274,5 +227,18 @@ address > h4 {
 }
 .social > a, .social > svg {
   align-self: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 0.2rem;
+}
+.logo > a {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 600;
 }
 /*# sourceMappingURL=index.34ebc287.css.map */
