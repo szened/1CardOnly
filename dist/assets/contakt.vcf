@@ -2,29 +2,36 @@ BEGIN:VCARD
 
 VERSION:3.0
 
-N:Gump;Forrest;;Mr.;
+N:Szabó;Bence;;;
 
-FN:Forrest Gump
+FN:Bence Szabó
 
-ORG:Bubba Gump Shrimp Co.
+ORG:a Borfotós
 
-TITLE:Shrimp Man
+TITLE:fotós
 
-PHOTO;TYPE=JPEG;VALUE=URI:https://hopeful-wozniak-192d81.netlify.app/bence.jpg
+PHOTO;TYPE=JPEG;VALUE=URI:https://1cardonly.netlify.app/assets/bence.jpg
 
-TEL;TYPE=WORK,VOICE:(111) 555-1212
+TEL;TYPE=WORK,VOICE:+36 (30) 948-9880
 
-TEL;TYPE=HOME,VOICE:(404) 555-1212
+ADR;TYPE=WORK,PREF:;;100 Fő út;Sárospatak;LA;4032;Hungary
 
-ADR;TYPE=WORK,PREF:;;100 Waters Edge;Baytown;LA;30314;United States of America
+LABEL;TYPE=WORK,PREF:100 Fő út\nSárospatak\, LA 4032\nHungary
 
-LABEL;TYPE=WORK,PREF:100 Waters Edge\nBaytown\, LA 30314\nUnited States of America
+ADR;TYPE=HOME:;;42 Mellék út.;Sárospatak;LA;4032;Hungary
 
-ADR;TYPE=HOME:;;42 Plantation St.;Baytown;LA;30314;United States of America
+LABEL;TYPE=HOME:42 Mellék út.\nSárospatak\, LA 4032\nHungary
 
-LABEL;TYPE=HOME:42 Plantation St.\nBaytown\, LA 30314\nUnited States of America
+EMAIL:bence@aborfotos.hu
 
-EMAIL:forrestgump@example.com
+URL:https://aborfotos.hu
+URL:https://www.facebook.com/aborfotos
+URL:https://www.instagram.com/aborfotos/
+URL:https://www.facebook.com/messages/t/107818204714310
+
+SOURCE:https://1cardonly.netlify.app/assets/contakt.vcf
+
+PROFILE:VCARD
 
 REV:2008-04-24T19:52:43Z
 
