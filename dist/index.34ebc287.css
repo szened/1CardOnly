@@ -3,6 +3,9 @@
 :root {
   /* Background color */
   --clr-background: #ffd300;
+  --color-primary: #ffd300;
+  --color-primary-light: #ffdf3c;
+  --color-primary-dark: #ffa800;
   /* Main colors */
   --clr-copper: #be5c01;
   --clr-silver: #7A8596;
@@ -185,7 +188,7 @@ html {
 body {
   box-sizing: border-box;
   position: relative;
-  background-color: var(--clr-background);
+  background: linear-gradient(30deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   font-family: var(--ff-paragraph);
   overflow-x: hidden;
 }
@@ -209,7 +212,7 @@ img {
   place-items: center;
   padding: 1em 1.5em;
   border-radius: 0.2em;
-  margin-top: 1em;
+  margin: 1em;
   background-color: #000;
   font-weight: 900;
   font-size: large;
