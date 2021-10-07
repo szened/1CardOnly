@@ -1,0 +1,38 @@
+BEGIN:VCARD
+
+VERSION:2.1
+
+N:Szabó;Bence;;;
+
+FN:Bence Szabó
+
+ORG:a Borfotós
+
+TITLE:CEO
+
+PHOTO;JPEG:https://1cardonly.netlify.app/assets/bence.jpg
+
+TEL;TYPE=WORK,VOICE:+36 (30) 948-9880
+
+ADR;TYPE=WORK,PREF:;;100 Fő út;Sárospatak;LA;4032;Hungary
+
+LABEL;TYPE=WORK,PREF:100 Fő út\nSárospatak\, LA 4032\nHungary
+
+ADR;TYPE=HOME:;;42 Mellék út.;Sárospatak;LA;4032;Hungary
+
+LABEL;TYPE=HOME:42 Mellék út.\nSárospatak\, LA 4032\nHungary
+
+EMAIL:bence@aborfotos.hu
+
+URL:https://aborfotos.hu
+URL:https://www.facebook.com/aborfotos
+URL:https://www.instagram.com/aborfotos/
+URL:https://www.facebook.com/messages/t/107818204714310
+
+SOURCE:https://1cardonly.netlify.app/assets/contakt-2.1.vcf
+
+PROFILE:VCARD
+
+REV:2021-09-24T19:52:43Z
+
+END:VCARD
